@@ -1,5 +1,5 @@
 # Nangka - theme for jekyll
-Just simple for your jekyll blog, based on default Jekyll theme.
+Just simple theme for your jekyll blog, based on default Jekyll theme.
 
 ### Feature
 
@@ -9,12 +9,13 @@ Just simple for your jekyll blog, based on default Jekyll theme.
 - [x] **404 Error Page**
 - [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
 - [x] **Disqus Comments**
+- [x] **Ads**
 - [ ] **Share Button**
 
 ### [View Demo](http://rmsubekti.github.io/nangka)
 
 ### Run this theme on your local machine
-To serve this theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), and then run this command.
+To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), and then run this command.
 ```
 git clone git@github.com:rmsubekti/nangka.git
 cd nangka
