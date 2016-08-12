@@ -23,7 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    
+
     @include media-query($on-palm) {
         &.exp {
             left: 200px;
@@ -137,7 +137,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -171,11 +171,11 @@ table {
     border: 1px solid #e5e5e5;
   }
   tbody{
-      tr:nth-child(odd){ 
+      tr:nth-child(odd){
         td,th{
             background-color: #f9f9f9;
         }
-      }      
+      }
   }
 }
 
