@@ -120,7 +120,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit*2 0;
 }
 
 .page-heading {
@@ -214,8 +214,39 @@
     }
 }
 
-.ads-wrapper {
+.banner-wrapper {
     background: #f3f3f3;
     padding: 16px;
     text-align: center;
+
+    @include media-query($on-laptop) {
+        display:none;
+    }
+}
+
+.not-found{
+  text-align: center;
+
+  h1{
+    font-size: 5em;
+  }
+
+  p{
+    font-size: 1.3em;
+    margin-bottom: 3em;
+  }
+
+  a{
+    background: #515865;
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+
+    &+a{
+      margin-left: 10px;
+    }
+  }
 }
